@@ -152,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu * {
   margin: 0;
   padding: 0;
+  
   list-style: none;
 }
 
@@ -230,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: #ffffff;
 }
 
 .mobile-nav-active {
@@ -254,9 +255,24 @@ h1, h2, h3, h4, h5, h6 {
   position: relative; 
 }
 
+
+/* @media screen and (max-width: 992px) {
+  .tega1{
+    
+    margin: 40px;
+  }
+} */
+@media screen and (max-width: 992px) {
+    #hero p{
+      text-align: center;
+  }
+
+    #hero h1{
+      padding-top: 100px;
+    }
+}
 .tega1{
   background-color: rgb(238, 231, 231);
-  /* height: 255px; */
   position: relative;
   border-radius: 15px 0; 
   object-fit: contain;
@@ -270,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
   top:-9px;
   left: -9px;
   right: -9px;
-  bottom: -9px;
+  bottom: -9px;por
  
 }
 
@@ -286,7 +302,12 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -17px;
   
 } 
-
+@media screen and (max-width: 992px) {
+  .tega1{
+    
+    margin: 40px;
+  }
+}
 
 
 .img{
@@ -313,16 +334,9 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: scale-down;
     max-width: 100%;
     
-    }
+    }    
 }
- /* @media(min-width: 400px) {
-  .tega1 {
-  width:100%;
-  object-fit: scale-down;
-  max-width: 100%;
-  
-  }
-} */
+
 
 #hero:before {
   content: "";
@@ -353,7 +367,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   color: #ffffff;
   display: block;
- 
+  overflow-wrap: break-word;
+  line-height: 25px;
+  width: 50%;
+  
 }
 #hero p span {
   color: #AF3567;
@@ -414,19 +431,37 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
   }
   #hero p {
-    width: 482px;
-height: 84px;
-left: 268px;
-top: 310.6px;
+    text-align: center;
+ 
+  }
 
-font-family: Graphik;
-/* font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 28px; */
-margin-top: 10px;
-font-size: 20px;
-line-height: 24px; 
+  #new h4{
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 992px) {
+  .tega1{
+    
+    margin: 40px;
+  }
+} */
+
+@media screen and (max-width: 992px) {
+  #hero .social-links a{
+    background: #000000;
+    color: #AD3467;
+    margin-right: 40px;
+    font-size: 14px;
+    display: inline-block;
+    transition: 0.3s;
+    line-height: 0.5;
+    width:30px;
+    height: 30px;
+    padding: 0.5rem;
+    position: relative;
+    border-radius: 50%;
+    object-fit: contain;
   }
 }
 
@@ -818,9 +853,29 @@ padding-top: 30px;
   right: 15px;
 }
 
-/*--------------------------------------------------------------
-# Services
-------------------------------------------------------------
+#portfolio .vid video{
+  position: relative;
+  width: 100%;
+  top: 0;
+  height: auto;
+
+}
+
+#portfolio .vid1{
+  position: relative;
+  width: 100%;
+  top: 0;
+  height: auto;
+  
+}
+
+ /* @media screen and (max-width: 992px) {
+  #portfolio .vid{
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+} */
 
 /*--------------------------------------------------------------
 # Contact
